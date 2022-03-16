@@ -1,0 +1,187 @@
+
+#mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 2s; 
+    padding: 15px;
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+
+  #home {
+    top: 50px;
+    background-color: #04AA6D;
+  }
+  
+  #result {
+    top: 110px;
+    background-color: #2196F3;
+  }
+  
+  #fees {
+    top: 170px;
+    background-color: #f44336; 
+  }
+  
+  #logout {
+    top: 230px;
+    background-color: rgb(212, 36, 228)
+  }
+  .logo{
+      margin-left: 20px;
+      height: 1.2em;
+      width: 1.2em;
+
+  }
+  .logo2{
+      margin-left: 30px;
+      height: 1.2em;
+      width: 1.2em;
+  }
+  .logo3{
+      margin-left: 10px;
+    height: 1.2em;
+    width: 1.2em;
+
+  }
+  .background{
+      position: absolute;
+      height: 110%;
+      width: 100%;
+      padding: -5px;
+      opacity: .9;
+      z-index: -1;
+      margin-top: -20px;
+      margin-left: -10px;
+  }
+ 
+.welcome{
+
+margin-left: -10px;
+margin-right: -10px;
+border: 2px solid black;
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+ background-color:black;
+ height: 40px;
+ margin-top: -10px;
+
+}
+
+.student--{
+  position: absolute;
+  top: 0px;
+  /* left: 40%; */
+  font-size: 25px;
+  text-decoration: dashed;
+  border: 2px solid blue;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  z-index: -1;
+  padding-top: 4px;
+}
+.roll{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font: bold;
+  font-size: 20px;
+  text-decoration: underline;
+  color:white;
+}
+#name{
+  position: absolute;
+top: 80px;
+left: 15%;
+color:white;
+}
+#course{
+position: absolute;
+top: 120px;
+left: 15%;
+color:white;
+}
+#branch{
+  position: absolute;
+  top: 160px;
+  left: 15%;
+  color:white;
+}
+#sem{
+  position: absolute;
+  top: 200px;
+  left: 15%;
+  color:white;
+}
+#email{
+   position: absolute;
+  top: 240px;
+  left: 15%;
+  color:white;
+}
+#fee{
+  position: absolute;
+  top: 300px;
+  left: 15%;
+  color:white;
+
+}
+#fee_paid{
+  position: absolute;
+  top: 300px;
+  left: 40%;
+  color:green;
+}
+#fee_not_paid{
+  position: absolute;
+  top: 300px;
+  left: 40%;
+  color: red;
+}
+#father{
+   position: absolute;
+  top: 80px;
+  left: 60%;
+  color:white;
+}
+#dob{
+   position: absolute;
+  top: 120px;
+  left: 60%;
+  color:white;
+}
+#mobile{
+   position: absolute;
+  top: 160px;
+  left: 60%;
+  color:white;
+}
+#gender{
+   position: absolute;
+  top: 200px;
+  left: 60%;
+  color:white;
+}
+#address{
+   position: absolute;
+  top: 240px;
+  left: 60%;
+  color:white;
+}
+.detail{
+  font: bold;
+  font-size: larger;
+}

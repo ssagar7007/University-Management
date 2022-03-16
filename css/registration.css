@@ -1,0 +1,130 @@
+* {
+  padding: 0px;
+  margin: 0px;
+
+  font-family: "Inconsolata", monospace;
+}
+.container {
+  max-width: 80%;
+  /* background-color: rgb(196, 140, 248); */
+  padding-left: 110px;
+/* font-size: 60px; */
+  
+  font-family: "Akaya Kanadaka", cursive;
+}
+.container h2,
+p {
+  text-align: center;
+  font-family: "Akaya Kanadaka", cursive;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],select,
+textarea,
+fieldset {
+  background-color: transparent;
+  display: block;
+  width: 70%;
+  margin: 11px 0px;
+  padding: 7px;
+  outline: none;
+  border: 2px solid;
+  border-radius: 8px;
+
+}
+input[type="reset"]{
+margin: 50px;
+}
+
+fieldset {
+  padding: 7px;
+  text-align: center;
+}
+.label{ padding: 20px;
+  text-align: center;
+  
+}
+form {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.select{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+ 
+}
+.btn {
+  color: white;
+  background-color:black;
+  margin: 11px 0px;
+  padding: 10px 30px;
+  border: 2px solid;
+  border-radius: 15px;
+  cursor: pointer;
+ 
+
+}
+.btn:hover {
+  background-color: #00000069;
+}
+
+.im {
+  background-size: cover;
+  width: 100%;
+  height: 190%;
+
+  position: absolute;
+  z-index: -1;
+  opacity: 0.8;
+}
+.home{
+ height: 35px;
+ margin-left: 15px;
+ margin-top: 5px;
+}
+
+
+
+/* registration.php................................ */
+.co{
+  margin: 24px;
+  padding: 34px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  line-height: 2.5;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10%;
+
+}
+.login{     
+  text-align: center;
+background-color: rgb(50, 62, 238);
+   color: #fff;
+    padding: 1px 35px;
+   border-radius: 15px;
+   cursor: pointer;
+ 
+  
+}
+.login:link{
+ text-decoration: none;
+}
+.login:hover{
+background-color: rgba(27, 97, 177, 0.842);
+color : red;
+}
+.para{
+  font-style: normal;
+text-align: center;
+size: 30px;
+color:rgb(121, 232, 240);
+}

@@ -1,0 +1,197 @@
+
+#mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 2s; 
+    padding: 15px;
+    width: 110px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+
+  #home {
+    top: 60px;
+    background-color: #04AA6D;
+  }
+  
+  #update{
+    top: 140px;
+    background-color: #2196F3;
+  }
+  
+
+  
+  #logout {
+    top: 220px;
+    background-color: #555
+  }
+  .logo{
+      margin-left: 20px;
+      height: 1.2em;
+      width: 1.2em;
+
+  }
+  /* .logo2{
+      margin-left: 30px;
+      height: 1.2em;
+      width: 1.2em;
+  } */
+  .logo3{
+      margin-left: 10px;
+    height: 1.2em;
+    width: 1.2em;
+
+  }
+  .background{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      padding: -5px;
+      opacity: 0.9;
+      z-index: -1;
+      margin-top: -20px;
+  }
+ 
+  .welcome{
+
+    margin-left: -10px;
+    margin-right: -10px;
+    border: 2px solid black;
+      text-align: center;
+      color: aliceblue;
+      font-size: 30px;
+     background-color:black;
+     height: 40px;
+     margin-top: -10px;
+    
+    }
+
+.faculty--{
+  position: absolute;
+  top: 0px;
+  /* left: 40%; */
+  font-size: 25px;
+  text-decoration: dashed;
+  border: 2px solid blue;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  z-index: -1;
+  padding-top: 4px;
+
+}
+.faculty_id{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font: bold;
+  font-size: 20px;
+  text-decoration: underline;
+  color:white;
+}
+#name{
+  position: absolute;
+top: 80px;
+left: 15%;
+border: 2px solid black;
+width: 200px;
+height: 50px;
+text-align: center;
+padding: 10px;
+border-radius: 10px;
+border-color: white;
+background-color: #ff9100;
+}
+#department{
+    position: absolute;
+    top: 80px;
+    left: 35%;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #ff9100;
+}
+#email{
+    position: absolute;
+    top: 200px;
+    left: 35%;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #ff9100;
+}
+#mobile{
+    position: absolute;
+    top: 200px;
+    left: 15%;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #ff9100;
+}
+#position{
+    position: absolute;
+    top: 320px;
+    left: 15%;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #ff9100;
+}
+#gender{
+    position: absolute;
+    top: 80px;
+    left: 55%;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #ff9100;
+}
+#address{
+    position: absolute;
+    top: 200px;
+    left: 55%;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #ff9100;
+}
+
+.detail{
+  font: bold;
+  font-size: larger;
+}

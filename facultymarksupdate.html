@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty marks update</title>
+</head>
+<link rel="stylesheet" href="css/marks.css">
+<body>
+    <img class="back" src="image/marks.jpg" alt="marks">
+    
+    <h1 class="sub1">Update Marks</h1><br>
+    <div>
+    <form action="marks.php" method="post">
+       <div class="roll">
+        <label for="rollno">Roll Number: *</label>
+        <input type="number" name="rollno" placeholder="Enter Roll Number" required id="rollno">
+        <label for="subn1">Branch :  </label>
+        <select class="select" name="branch" id="branch">
+            <option value="">Select Branch</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EE">EE</option>
+            <option value="CE">CE</option>
+            <option value="ME">ME</option>
+        </select> 
+        <label for="subn1">Semester :  </label>
+        <select class="select" name="sem" id="sem">
+            <option value="">Select Semester</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+    </div>
+        </div>
+        <br><br>
+            <hr>
+            <div class="sub">
+            <h1>Enter the marks here</h1><br>
+            <label for="subn1">Subject Name : </label>
+          <input type="text" name="subn1" id="subn1"> 
+          <label for="sub1">Subject Marks :  </label>
+          <input type="number" name="sub1" id="sub1"><br><br>
+           <label for="subn2">Subject Name : </label>
+            <input type="text" name="subn2" id="subn2">
+            <label for="sub2">Subject Marks :  </label>
+         <input type="number" name="sub2" id="sub2"><br><br>
+           <label for="subn3">Subject Name : </label>
+      <input type="text" name="subn3" id="subn3"> 
+      <label for="sub3">Subject Marks :  </label>
+           <input type="number" name="sub3" id="sub3"><br><br>
+           <label for="subn4">Subject Name : </label>
+         <input type="text" name="subn4" id="subn4">
+         <label for="sub4">Subject Marks :  </label>
+         <input type="number" name="sub4" id="sub4"><br><br>
+         <label for="subn5">Subject Name : </label>
+         <input type="text" name="subn5" id="subn5">
+         <label for="sub5">Subject Marks :  </label>
+         <input type="number" name="sub5" id="sub5"><br><br>
+        </div>
+        <div class="select1">
+            <button class="btn">Submit</button>
+          <input class="btn1" type="reset" value="reset"> 
+</div>
+    </form>
+   
+</body>
+</html>
